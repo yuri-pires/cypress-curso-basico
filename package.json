@@ -1,0 +1,17 @@
+{
+  "name": "cypress-curso-basico",
+  "version": "1.0.0",
+  "devDependencies": {
+    "allure-commandline": "^2.29.0",
+    "cypress": "^13.13.1",
+    "typescript": "*"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:test:mobile": "cypress run --config viewportWidth=370 viewportHeight=660"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3"
+  }
+}
